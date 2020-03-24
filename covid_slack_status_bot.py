@@ -1,6 +1,7 @@
 from requests import get
 from bs4 import BeautifulSoup
 import slack
+import os
 
 # source URL to scrape data from
 url = 'https://www.mohfw.gov.in/'
